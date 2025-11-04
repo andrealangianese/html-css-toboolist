@@ -1,0 +1,44 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utilities */
+
+/* intestazione */
+.sfondo-intestazione {
+    background-color: blue;
+    height: 80px;
+}
+
+.immagine-logo {
+    vertical-align: middle;
+    padding-left: 20px;
+    line-height: normal;
+}
+
+.titolo-sito {
+    display: inline;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.grigio-sfondo {
+    background-color: yellow;
+}
+
+/* bottoni */
+ 
+.nav-botton {
+    width: auto;
+}
+
+/* main */
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: aqua;
+}
