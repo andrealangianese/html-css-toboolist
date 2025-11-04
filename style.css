@@ -1,5 +1,5 @@
 /* css reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,8 +8,12 @@
 /* utilities */
 
 /* intestazione */
+.space {
+    height: 50px;
+    border-bottom: 10px solid rgb(100, 27, 27);
+}
 .sfondo-intestazione {
-    background-color: blue;
+    background-color: rgb(84, 84, 126);
     height: 80px;
 }
 
@@ -26,13 +30,21 @@
 }
 
 .grigio-sfondo {
-    background-color: yellow;
+    background-color: rgb(197, 186, 186);
 }
 
 /* bottoni */
- 
+
 .nav-botton {
-    width: auto;
+    padding: 8px;
+    background-color: aliceblue;
+    border-radius: 15%;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.blue-botton {
+    background-color: aqua;
 }
 
 /* main */
@@ -40,5 +52,71 @@
 .container {
     width: 70%;
     margin: auto;
-    background-color: aqua;
+    background-color: rgb(85, 111, 111);
+    border-color: rgb(189, 70, 70);
+}
+
+ul {
+    list-style: none;
+    padding-top: 5px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.titoli-enfatizzati {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* bottoni colorati */
+
+.generale-bottoni {
+    border-radius: 20%;
+    padding: 4px;
+    color: white;
+    background-color: rgb(10, 60, 186);
+    margin-left: 5px;
+    display: inline;
+}
+
+.viola {
+    background-color: purple;
+}
+
+.verde-botton {
+    background-color: green;
+}
+
+.arancio {
+    background-color: orange;
+}
+
+.fucsia {
+    background-color: fuchsia;
+}
+
+.lime {
+    background-color: rgb(58, 92, 8);
+}
+
+
+
+/* checklist */
+
+.cerchio-generale {
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.verde {
+    color: green;
+    border: 2px solid green;
+}
+
+.rosso {
+    color: red;
+    border: 2px solid red;
 }
