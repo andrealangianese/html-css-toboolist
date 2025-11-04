@@ -9,12 +9,14 @@
 
 /* intestazione */
 .space {
-    height: 50px;
+    min-height: 60px;
+    vertical-align: middle;
     border-bottom: 10px solid rgb(100, 27, 27);
 }
+
 .sfondo-intestazione {
     background-color: rgb(84, 84, 126);
-    height: 80px;
+    padding: 10px 20px;
 }
 
 .immagine-logo {
@@ -41,6 +43,8 @@
     border-radius: 15%;
     margin: 5px;
     vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .blue-botton {
@@ -58,11 +62,11 @@
 
 ul {
     list-style: none;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 li {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .titoli-enfatizzati {
